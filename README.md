@@ -1,38 +1,44 @@
 # Experiment_18
-Aim: Exploring statistical and specialized data visualization techniques
+AIM
 
-Theory:
+To study and implement advanced data visualization techniques in Python using Matplotlib and Seaborn for representing distributions, proportions, correlations, and multi-variable relationships in data.
 
-The primary goal of EDA is to understand the data's structure, identify outliers, detect patterns, and test underlying assumptions before formal modeling. By combining statistical summaries with various plots—such as box plots for detecting distribution spread and scatter plots for relationship mapping—analysts can gain a comprehensive view of the dataset’s health and trends. A critical component of data analysis used to transform complex datasets into visual representations like charts and graphs to uncover patterns, trends, and correlations.
+THEORY
 
-import seaborn as sns: Imports the Seaborn library, which is built on top of Matplotlib and used for creating attractive and informative statistical graphics.
+Advanced data visualization techniques help in analyzing complex datasets by representing relationships, proportions, and distributions effectively. Matplotlib and Seaborn provide specialized plots such as area charts, pie charts, box plots, heatmaps, and bubble plots. These visualizations are useful for understanding trends, identifying outliers, analyzing correlations between variables, and visualizing multiple variables simultaneously. Such techniques are widely used in statistical analysis, business intelligence, and data science applications.
 
-import matplotlib.pyplot as plt: Imports the Matplotlib sub-module used for generating static, interactive, and animated visualizations in Python.
+ONE-LINE EXPLANATIONS OF FUNCTIONS
 
-pd.read_csv(): Loads data from a comma-separated values (CSV) file into a structured DataFrame.
+fill_between() – Creates an area plot to show cumulative values or trends.
 
-df.head(): Displays the first five rows of the DataFrame to provide a quick glimpse of the data structure and values.
+pie() – Displays data as proportional slices of a circular chart.
 
-df.info(): Prints a concise summary of the DataFrame, including the number of non-null entries and the data type of each column.
+Circle() – Adds a circular shape to create a donut chart.
 
-df.describe(): Generates descriptive statistics that summarize the central tendency, dispersion, and shape of a dataset’s distribution.
+boxplot() – Visualizes distribution and detects outliers in data.
 
-df.isnull().sum(): Checks for missing values across the dataset and returns the total count of null entries for each column.
+corr() – Calculates correlation between numerical variables.
 
-df.drop(): Removes specified labels (rows or columns) from the DataFrame to clean or simplify the dataset.
+heatmap() – Displays correlation values using color gradients.
 
-sns.histplot(): Plots a univariate histogram to visualize the distribution of a single numerical variable.
+scatter() – Creates a bubble plot showing relationship between variables with size variation.
 
-sns.boxplot(): Creates a box-and-whisker plot to show the distribution of data and identify potential outliers.
+scatterplot() – Creates an advanced scatter plot with color and size encoding.
 
-sns.scatterplot(): Draws a scatter plot to represent the relationship between two numerical variables using dots.
+set_theme() – Sets visual style for Seaborn plots.
 
-plt.figure(figsize=...): Specifies the width and height of the plotting area in inches to ensure the chart is readable.
+figure() – Initializes a new plotting area with specified size.
 
-plt.title(): Adds a descriptive title to the top of the visualization for better context.
+xlabel() – Sets label for x-axis.
 
-plt.show(): Displays the created plots and clears the current figure buffer.
+ylabel() – Sets label for y-axis.
 
-Conclusion:
+title() – Adds title to the chart.
 
-Through this experiment, it is concluded that Exploratory Data Analysis (EDA) is an indispensable step in the data pipeline. By using functions for statistical description and visual plotting, we can effectively identify data quality issues like missing values and outliers, while simultaneously discovering meaningful correlations between variables that guide further analysis.
+legend() – Displays labels for different plotted data.
+
+show() – Displays the plotted graph.
+
+CONCLUSION
+
+Thus, we successfully studied advanced data visualization techniques using Matplotlib and Seaborn. We learned how to represent data using area charts, pie charts, box plots, heatmaps, and bubble plots, which help in understanding distributions, correlations, and multi-variable relationships effectively.
