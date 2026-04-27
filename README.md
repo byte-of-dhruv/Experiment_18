@@ -1,6 +1,8 @@
 # Experiment_18
 Aim: Exploring statistical and specialized data visualization techniques
+
 Theory:
+
 The primary goal of EDA is to understand the data's structure, identify outliers, detect patterns, and test underlying assumptions before formal modeling. By combining statistical summaries with various plots—such as box plots for detecting distribution spread and scatter plots for relationship mapping—analysts can gain a comprehensive view of the dataset’s health and trends. A critical component of data analysis used to transform complex datasets into visual representations like charts and graphs to uncover patterns, trends, and correlations.
 
 import seaborn as sns: Imports the Seaborn library, which is built on top of Matplotlib and used for creating attractive and informative statistical graphics.
@@ -32,4 +34,5 @@ plt.title(): Adds a descriptive title to the top of the visualization for better
 plt.show(): Displays the created plots and clears the current figure buffer.
 
 Conclusion:
+
 Through this experiment, it is concluded that Exploratory Data Analysis (EDA) is an indispensable step in the data pipeline. By using functions for statistical description and visual plotting, we can effectively identify data quality issues like missing values and outliers, while simultaneously discovering meaningful correlations between variables that guide further analysis.
